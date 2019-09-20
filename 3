@@ -1,0 +1,25 @@
+.#include<stdio.h>
+int main()
+{
+    int a,b,c,e;
+    printf("enter 4 numbers:");
+    scanf("%d %d %d %d",&a,&b,&c,&e);
+    if(a<b & a<c & a<e)
+    {
+    printf("smallest number is %d",a);
+    }
+    else if(b<a & b<c & b<e)
+    {
+    printf("smallest number is %d",b);
+    }
+    else if(c<a & c<b & c<e)
+    {
+    printf("smallest number is %d",c);
+    }
+    else if(e<a & e<b & e<c)
+    {
+        printf("smallest number is %d",e);
+    }
+}
+
+
