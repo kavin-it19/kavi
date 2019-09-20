@@ -1,0 +1,24 @@
+#include<stdio.h>
+void main()
+{
+int a,b,operators;
+printf("enter values for a and b:");
+scanf("%d %d",&a,&b);
+printf("enter operators to be done:\n1.+ \n2.- \n3.* \n4./");
+scanf("%d",&operators);
+switch(operators)
+{
+case 1:
+printf("result of a and b is %d",a+b);
+break;
+case 2:
+printf("result of a and b is %d",a-b);
+break;
+case 3:
+printf("result of a and b is %d",a*b);
+break;
+case 4:
+printf("result of a and b is %d",a/b);
+break;
+}
+}
